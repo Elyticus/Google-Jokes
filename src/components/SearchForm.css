@@ -1,0 +1,123 @@
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5.5em;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+.google-title {
+  font-size: 3em;
+}
+
+li {
+  list-style-type: none;
+  margin-top: 1em;
+  background-color: #1f1f1f;
+  padding: 0.3em 0.7em;
+  border-radius: 5px;
+}
+
+li,
+button,
+.search-input,
+.search-state,
+.select-input,
+.jokes-length {
+  color: whitesmoke;
+}
+
+li {
+  width: 60%;
+}
+
+button {
+  cursor: pointer;
+  height: 35px;
+  padding: 0.2em 1.6em;
+  border: none;
+  background-color: #434343;
+  border: 0.5px solid #434343;
+  border-radius: 4px;
+}
+
+button:hover {
+  border: 0.5px solid gray;
+}
+
+.form-btns {
+  display: flex;
+  gap: 1em;
+}
+
+.search-input {
+  width: 40%;
+  border-radius: 50px;
+  border: 1px solid rgb(97, 97, 97);
+  outline: none;
+  padding: 1.3em;
+  background-color: #2e2e2e;
+  margin: 0 auto;
+}
+
+.search-input,
+.search-state {
+  margin-top: 2em;
+}
+
+.search-state {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.search-input::placeholder {
+  color: #636362;
+}
+
+.select-input {
+  background-color: #434343;
+  border: none;
+  padding: 0.5em 1em;
+}
+
+.jokes-length {
+  font-size: 1em;
+  margin-right: 1em;
+}
+
+span {
+  font-size: 2em;
+}
+
+.letter-G1 {
+  color: #0057e7;
+}
+.letter-O1 {
+  color: #d62d20;
+}
+.letter-O2 {
+  color: #ffa700;
+}
+.letter-G2 {
+  color: #0057e7;
+}
+.letter-L {
+  color: #008744;
+}
+.letter-E {
+  color: #d62d20;
+}
+
+@media all and (max-width: 1024px) {
+  li {
+    width: 80%;
+  }
+
+  .search-input {
+    width: 60%;
+  }
+}

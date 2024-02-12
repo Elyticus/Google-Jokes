@@ -1,0 +1,13 @@
+body {
+  background-color: #333333;
+  font-family: Arial, sans-serif;
+}
+
+.search-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 1em;
+  margin: 0;
+}
